@@ -1,0 +1,9 @@
+/* pages/find/to.wxss */
+view{
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  background: greenyellow;
+  text-align: center
+
+}

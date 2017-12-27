@@ -1,0 +1,15 @@
+<!--pages/微信/index.wxml-->
+<!-- <text>pages/微信/index.wxml</text> -->
+<view id='main'>
+<input placeholder='搜索'></input>
+<view wx:for="{{array}}"  wx:key="aa" wx:for-item="message" class='msg'>
+    <image src='{{message.image}}'></image>
+   
+    <navigator url='../call/link'> 
+       <text class='list'>{{message.info}}</text>
+    </navigator> 
+   
+
+</view>
+   
+</view>
